@@ -1,0 +1,9 @@
+aws-cdk-lib==2.172.0
+constructs>=10.0.0,<11.0.0
+aws-cdk.core
+aws-cdk.aws-lambda
+aws-cdk.aws-apigateway
+aws-cdk.aws-iam
+aws-cdk.aws-secretsmanager
+aws-cdk.aws-cognito
+boto3
