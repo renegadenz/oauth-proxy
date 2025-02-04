@@ -8,13 +8,12 @@ Cognito: Authenticates Datadog using OAuth2 before making requests to API Gatewa
 API Gateway: Exposes an HTTP endpoint that Datadog can send webhooks to.
 Lambda: Handles the business logic of receiving Datadog webhooks, authenticating to ServiceDesk Plus, and creating/updating tickets using ServiceDesk Plus' API.
 Secrets Manager: Stores sensitive information such as Datadog OAuth2 credentials and the ServiceDesk Plus API key securely.
-Prerequisites
+
+## Prerequisites
 Before deploying the stack, ensure that you have the following set up:
 
 AWS Account: You must have an AWS account with appropriate permissions to deploy resources using AWS CDK.
-
-AWS CLI: Set up and configured with aws configure.
-
+AWS CLI: Set up and configured with `aws configure`.
 CDK CLI: Install the AWS CDK command-line tool globally:
 
 ```
